@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>dot-gimei</id>
+        <version>0.1.0</version>
+        <title>dot-gimei</title>
+        <authors>INOMATA Kentaro</authors>
+        <owners>INOMATA Kentaro</owners>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/matarillo/dot-gimei</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>dot-gimei is a .NET library for generating fake data (names and addresses) in Japanese.
+This library is basically a port of go-gimei, a Golang faker library. see also: https://github.com/willnet/gimei and https://github.com/mattn/go-gimei</description>
+        <releaseNotes>v0.1.0: initial release.</releaseNotes>
+        <copyright>Copyright © 2015 INOMATA Kentaro</copyright>
+        <language>ja-JP</language>
+        <tags>gimei faker testing</tags>
+        <dependencies>
+            <dependency id="YamlDotNet" version="3.6.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\DotGimei\bin\Release\DotGimei.dll" target="lib\net45\DotGimei.dll" />
+        <file src="..\DotGimei\bin\Release\DotGimei.xml" target="lib\net45\DotGimei.xml" />
+    </files>
+</package>
