@@ -1,7 +1,7 @@
 # dot-gimei
 .NET port of [gimei](https://github.com/willnet/gimei), inspired by [go-gimei](https://github.com/mattn/go-gimei)
 
-## Install
+## Installation
 Available via [Nuget](https://www.nuget.org/packages/dot-gimei/)
 
 ```powershell
@@ -9,7 +9,6 @@ PM> Install-Package dot-gimei
 ```
 
 ## Usage
-
 ```csharp
 using System;
 using DotGimei;
@@ -59,3 +58,9 @@ class Program
     }
 }
 ```
+
+## License
+MIT
+
+## Author
+INOMATA Kentaro (@matarillo)
