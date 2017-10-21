@@ -58,6 +58,11 @@ class Program
     }
 }
 ```
+## Notes
+
+* [Default data](https://github.com/matarillo/dot-gimei/tree/master/data) is embedded into the DLL.
+* If you want to replace the default data into custom one, use [Generator](https://github.com/matarillo/dot-gimei/blob/8bfb595576b61c6c30ea1a686346f9a170b7400b/DotGimei/Gimei.cs#L118) class.
+* Now [Name](https://github.com/matarillo/dot-gimei/blob/master/DotGimei/Name.cs) class has a property `Gender` which type is [GenderIdentity](https://github.com/matarillo/dot-gimei/blob/master/DotGimei/GenderIdentity.cs).
 
 ## License
 MIT
